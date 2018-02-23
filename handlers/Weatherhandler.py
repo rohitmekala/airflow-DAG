@@ -1,9 +1,3 @@
-
-from airflow import DAG
-from airflow.operators import DummyOperator
-from airflow.operators import PythonOperator
-from airflow.operators import EmailOperator
-
 from datetime import datetime, timedelta
 import json
 import requests
